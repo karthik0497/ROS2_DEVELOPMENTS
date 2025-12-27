@@ -1,0 +1,30 @@
+[0.620s] Invoking command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build install --record /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.782s] running egg_info
+[0.783s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.792s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.792s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.793s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.816s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.817s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.817s] running build
+[0.817s] running build_py
+[0.817s] creating /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build
+[0.817s] creating /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build/lib
+[0.817s] creating /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build/lib/my_py_pkg
+[0.818s] copying my_py_pkg/my_test_node.py -> /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build/lib/my_py_pkg
+[0.818s] copying my_py_pkg/__init__.py -> /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build/lib/my_py_pkg
+[0.818s] running install
+[0.823s] running install_lib
+[0.835s] running install_data
+[0.835s] running install_egg_info
+[0.851s] removing '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.851s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.852s] running install_scripts
+[0.939s] Installing test_node_a script to /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/my_py_pkg
+[0.939s] Installing test_node_b script to /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/my_py_pkg
+[0.939s] Installing test_node_c script to /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/my_py_pkg
+[0.940s] writing list of installed files to '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/install.log'
+[1.003s] Invoked command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/build install --record /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_py_pkg/install.log --single-version-externally-managed install_data

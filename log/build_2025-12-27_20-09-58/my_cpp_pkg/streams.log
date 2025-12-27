@@ -1,0 +1,28 @@
+[0.028s] Invoking command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/build/my_cpp_pkg -- -j12 -l12
+[0.100s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.664s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.853s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.877s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.125s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.747s] -- Configuring done (1.7s)
+[1.755s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[1.755s]   Cannot find source file:
+[1.755s] 
+[1.755s]     src/my_first_node.cpp
+[1.756s] 
+[1.756s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.756s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.756s]   .f95 .f03 .hip .ispc
+[1.756s] 
+[1.756s] [0m
+[1.759s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[1.760s]   No SOURCES given to target: my_first_node
+[1.760s] 
+[1.760s] [0m
+[1.760s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.786s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.792s] Invoked command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/build/my_cpp_pkg -- -j12 -l12

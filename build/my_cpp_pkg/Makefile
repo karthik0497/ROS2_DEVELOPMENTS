@@ -210,6 +210,56 @@ my_test_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test_node.dir/build.make CMakeFiles/my_test_node.dir/build
 .PHONY : my_test_node/fast
 
+#=============================================================================
+# Target rules for targets named motor_publisher
+
+# Build rule for target.
+motor_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_publisher
+.PHONY : motor_publisher
+
+# fast build rule for target.
+motor_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_publisher.dir/build.make CMakeFiles/motor_publisher.dir/build
+.PHONY : motor_publisher/fast
+
+#=============================================================================
+# Target rules for targets named smart_motor
+
+# Build rule for target.
+smart_motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smart_motor
+.PHONY : smart_motor
+
+# fast build rule for target.
+smart_motor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_motor.dir/build.make CMakeFiles/smart_motor.dir/build
+.PHONY : smart_motor/fast
+
+src/motor_publisher.o: src/motor_publisher.cpp.o
+.PHONY : src/motor_publisher.o
+
+# target to build an object file
+src/motor_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_publisher.dir/build.make CMakeFiles/motor_publisher.dir/src/motor_publisher.cpp.o
+.PHONY : src/motor_publisher.cpp.o
+
+src/motor_publisher.i: src/motor_publisher.cpp.i
+.PHONY : src/motor_publisher.i
+
+# target to preprocess a source file
+src/motor_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_publisher.dir/build.make CMakeFiles/motor_publisher.dir/src/motor_publisher.cpp.i
+.PHONY : src/motor_publisher.cpp.i
+
+src/motor_publisher.s: src/motor_publisher.cpp.s
+.PHONY : src/motor_publisher.s
+
+# target to generate assembly for a file
+src/motor_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_publisher.dir/build.make CMakeFiles/motor_publisher.dir/src/motor_publisher.cpp.s
+.PHONY : src/motor_publisher.cpp.s
+
 src/my_test_node.o: src/my_test_node.cpp.o
 .PHONY : src/my_test_node.o
 
@@ -234,6 +284,30 @@ src/my_test_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test_node.dir/build.make CMakeFiles/my_test_node.dir/src/my_test_node.cpp.s
 .PHONY : src/my_test_node.cpp.s
 
+src/smart_motor.o: src/smart_motor.cpp.o
+.PHONY : src/smart_motor.o
+
+# target to build an object file
+src/smart_motor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_motor.dir/build.make CMakeFiles/smart_motor.dir/src/smart_motor.cpp.o
+.PHONY : src/smart_motor.cpp.o
+
+src/smart_motor.i: src/smart_motor.cpp.i
+.PHONY : src/smart_motor.i
+
+# target to preprocess a source file
+src/smart_motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_motor.dir/build.make CMakeFiles/smart_motor.dir/src/smart_motor.cpp.i
+.PHONY : src/smart_motor.cpp.i
+
+src/smart_motor.s: src/smart_motor.cpp.s
+.PHONY : src/smart_motor.s
+
+# target to generate assembly for a file
+src/smart_motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_motor.dir/build.make CMakeFiles/smart_motor.dir/src/smart_motor.cpp.s
+.PHONY : src/smart_motor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +323,18 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... motor_publisher"
 	@echo "... my_test_node"
+	@echo "... smart_motor"
+	@echo "... src/motor_publisher.o"
+	@echo "... src/motor_publisher.i"
+	@echo "... src/motor_publisher.s"
 	@echo "... src/my_test_node.o"
 	@echo "... src/my_test_node.i"
 	@echo "... src/my_test_node.s"
+	@echo "... src/smart_motor.o"
+	@echo "... src/smart_motor.i"
+	@echo "... src/smart_motor.s"
 .PHONY : help
 
 

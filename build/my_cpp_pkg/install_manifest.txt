@@ -1,4 +1,6 @@
 /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/my_test_node
+/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/motor_publisher
+/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/smart_motor
 /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
 /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
 /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh

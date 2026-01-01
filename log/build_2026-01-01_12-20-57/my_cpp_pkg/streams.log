@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg -- -j12 -l12
+[0.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.183s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.203s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.265s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.266s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.358s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.438s] -- Configuring done (0.4s)
+[0.452s] -- Generating done (0.0s)
+[0.456s] -- Build files have been written to: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg
+[0.496s] [ 16%] [32mBuilding CXX object CMakeFiles/smart_motor.dir/src/smart_motor.cpp.o[0m
+[0.503s] [ 66%] [32mBuilding CXX object CMakeFiles/motor_publisher.dir/src/motor_publisher.cpp.o[0m
+[0.504s] [ 66%] Built target my_test_node
+[3.700s] [ 83%] [32m[1mLinking CXX executable motor_publisher[0m
+[3.858s] [ 83%] Built target motor_publisher
+[6.104s] [100%] [32m[1mLinking CXX executable smart_motor[0m
+[6.318s] [100%] Built target smart_motor
+[6.329s] Invoked command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg -- -j12 -l12
+[6.338s] Invoking command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg
+[6.344s] -- Install configuration: ""
+[6.344s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/my_test_node
+[6.345s] -- Installing: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/motor_publisher
+[6.346s] -- Set non-toolchain portion of runtime path of "/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/motor_publisher" to ""
+[6.346s] -- Installing: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/smart_motor
+[6.351s] -- Set non-toolchain portion of runtime path of "/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/lib/my_cpp_pkg/smart_motor" to ""
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[6.351s] -- Installing: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[6.351s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[6.352s] -- Installing: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[6.352s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[6.352s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[6.352s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[6.352s] -- Up-to-date: /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[6.353s] Invoked command in '/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/karthik/Documents/ROS2_DEVELOPMENTS/ros2_workspace_1/ROS2_DEVELOPMENTS/build/my_cpp_pkg

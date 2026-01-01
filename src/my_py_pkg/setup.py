@@ -27,6 +27,8 @@ setup(
             "test_node_a = my_py_pkg.my_test_node:test_node_a",
             "test_node_b = my_py_pkg.my_test_node:test_node_b",
             "test_node_c = my_py_pkg.my_test_node:test_node_c",
+            "sensor_subscriber = my_py_pkg.sensor_subscriber:main",
+            "smart_sensor = my_py_pkg.smart_sensor:main",
         ],
     },
 )
